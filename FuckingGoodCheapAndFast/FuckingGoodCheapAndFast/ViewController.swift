@@ -36,8 +36,6 @@ class ViewController: UIViewController {
             } else {
                 totalScore -= 1
             }
-            
-            checkScore()
         case swhCheap:
             selectedItem = 2
             if swhCheap.isOn {
@@ -45,8 +43,6 @@ class ViewController: UIViewController {
             } else {
                 totalScore -= 1
             }
-            
-            checkScore()
         case swhFast:
             selectedItem = 3
             if swhFast.isOn {
@@ -54,11 +50,11 @@ class ViewController: UIViewController {
             } else {
                 totalScore -= 1
             }
-            
-            checkScore()
         default:
             break
         }
+        
+        checkScore()
     }
     
     func checkScore() -> Void {
