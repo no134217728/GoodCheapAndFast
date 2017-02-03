@@ -1,9 +1,18 @@
 
+/* Class = "UILabel"; text = "Slow"; ObjectID = "CmT-bE-w1p"; */
+"CmT-bE-w1p.text" = "慢";
+
+/* Class = "UILabel"; text = "Inferior"; ObjectID = "DVU-Rg-h3j"; */
+"DVU-Rg-h3j.text" = "次等貨";
+
 /* Class = "UILabel"; text = "Good"; ObjectID = "Sju-es-cbO"; */
 "Sju-es-cbO.text" = "好";
 
 /* Class = "UILabel"; text = "Fast"; ObjectID = "T6h-5d-8R6"; */
 "T6h-5d-8R6.text" = "快";
+
+/* Class = "UILabel"; text = "Expensive"; ObjectID = "bKJ-kO-SYz"; */
+"bKJ-kO-SYz.text" = "貴";
 
 /* Class = "UILabel"; text = "Cheap"; ObjectID = "tcQ-zJ-rLU"; */
 "tcQ-zJ-rLU.text" = "便宜";

@@ -15,6 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		205AE2241E44490F00637EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		205AE2261E44491300637EF9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		205AE2281E44491600637EF9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		20F34E561E42D3060046EB64 /* FuckingGoodCheapAndFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckingGoodCheapAndFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F34E591E42D3060046EB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F34E5B1E42D3060046EB64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,9 +25,7 @@
 		20F34E601E42D3060046EB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F34E631E42D3060046EB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F34E651E42D3060046EB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20F34E6B1E43161D0046EB64 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		20F34E6C1E43161D0046EB64 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		20F34E6D1E4316240046EB64 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		20F34E6E1E4316240046EB64 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +112,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				de,
 			);
 			mainGroup = 20F34E4D1E42D3060046EB64;
 			productRefGroup = 20F34E571E42D3060046EB64 /* Products */;
@@ -152,8 +155,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				20F34E5E1E42D3060046EB64 /* Base */,
-				20F34E6B1E43161D0046EB64 /* zh-Hant */,
-				20F34E6D1E4316240046EB64 /* de */,
+				205AE2241E44490F00637EF9 /* en */,
+				205AE2261E44491300637EF9 /* zh-Hant */,
+				205AE2281E44491600637EF9 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +313,7 @@
 				20F34E6A1E42D3060046EB64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

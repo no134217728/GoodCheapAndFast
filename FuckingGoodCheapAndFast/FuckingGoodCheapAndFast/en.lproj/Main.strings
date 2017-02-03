@@ -1,18 +1,18 @@
 
 /* Class = "UILabel"; text = "Slow"; ObjectID = "CmT-bE-w1p"; */
-"CmT-bE-w1p.text" = "Langsame";
+"CmT-bE-w1p.text" = "Slow";
 
 /* Class = "UILabel"; text = "Inferior"; ObjectID = "DVU-Rg-h3j"; */
-"DVU-Rg-h3j.text" = "Untergeordnet";
+"DVU-Rg-h3j.text" = "Inferior";
 
 /* Class = "UILabel"; text = "Good"; ObjectID = "Sju-es-cbO"; */
-"Sju-es-cbO.text" = "Gut";
+"Sju-es-cbO.text" = "Good";
 
 /* Class = "UILabel"; text = "Fast"; ObjectID = "T6h-5d-8R6"; */
-"T6h-5d-8R6.text" = "Schnell";
+"T6h-5d-8R6.text" = "Fast";
 
 /* Class = "UILabel"; text = "Expensive"; ObjectID = "bKJ-kO-SYz"; */
-"bKJ-kO-SYz.text" = "Teurer";
+"bKJ-kO-SYz.text" = "Expensive";
 
 /* Class = "UILabel"; text = "Cheap"; ObjectID = "tcQ-zJ-rLU"; */
-"tcQ-zJ-rLU.text" = "Billig";
+"tcQ-zJ-rLU.text" = "Cheap";
