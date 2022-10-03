@@ -9,23 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBOutlet weak var swhGood: UISwitch!
     @IBOutlet weak var swhCheap: UISwitch!
     @IBOutlet weak var swhFast: UISwitch!
     
     var totalScore: UInt32 = 0
     var selectedItem: UInt32 = 0
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBAction func swhChange(_ sender: UISwitch) {
         switch sender {
@@ -73,6 +62,7 @@ class ViewController: UIViewController {
                 default:
                     checkScore()
                 }
+                
                 totalScore -= 1
             }
         }
